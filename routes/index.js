@@ -12,13 +12,6 @@ var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(
 var engine_version = process.versions.node; 
 var engine_name = process.platform;
 
-// var data = {
-//   "timestamp": date+' '+time,
-//   "hostname": hostname,
-//   "engine": engine_version,
-//   "visitor ip": clientIp,
-// }
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
   /*get client ip address */
